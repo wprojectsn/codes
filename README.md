@@ -12,7 +12,7 @@ pytorch 0.4 with python 2.7
 * 2 you need to change some path and parameters in code/codespace/data_util/config.py
 ##### How to test?
 * python decode.py (the model name)
-
+#
 ##### other
 * Our concepts come from https://concept.research.microsoft.com/Home/API
 * Some of our code references https://github.com/atulkum/pointer_summarizer
