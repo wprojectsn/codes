@@ -3,7 +3,7 @@ Pytorch implementation for paper of "Concept Pointer Network for Abstractive Sum
 
 #
 pytorch 0.4
-#######
+######
 python 2.7
 
 ####
