@@ -9,7 +9,7 @@ pytorch 0.4 with python 2.7
 * python train.py None or python train.py (the model name)
 ###### before train
 * 1 Our conceptual vocabulary in code/data/vocabulary/concept_vocab,the number of conceptual words needs to be set before train.
-* 2 you need to change some path and parameters in code/codespace/data_util/config.py
+* 2 you need to change some path and parameters in code/codespace/data_util/config.py before train.
 ##### How to test?
 * python decode.py (the model name)
 #
