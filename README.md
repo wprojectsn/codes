@@ -23,4 +23,4 @@ pytorch 0.4 with python 2.7
 #
 ##### other
 * Our concepts come from https://concept.research.microsoft.com/Home/API
-* Some of our code references https://github.com/atulkum/pointer_summarizer
+* Part of our code references https://github.com/atulkum/pointer_summarizer
