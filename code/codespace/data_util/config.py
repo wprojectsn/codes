@@ -2,13 +2,13 @@ import os
 
 root_dir = os.path.expanduser("~")
 
-train_data_path = os.path.join(root_dir, "/home/wwb/corpus/giga/giga_train_bin/*")
-eval_data_path = os.path.join(root_dir, "/home/wwb/corpus/giga/giga_train_bin/*")
-decode_data_path = os.path.join(root_dir, "/home/wwb/NHG/code/data/test/ductest_ref0")
-train_ds_data_path = os.path.join(root_dir, "/home/wwb/NHG/code/data/ds/ductest")
-vocab_path = os.path.join(root_dir, "/home/wwb/NHG/code/data/vocabulary/vocab")
-log_root = os.path.join(root_dir, "/home/wwb/NHG/code/codespace/log_root")
-concept_vocab_path = os.path.join(root_dir, "/home/wwb/NHG/code/data/vocabulary/concept_vocab")
+train_data_path = os.path.join(root_dir, "/home/corpus/giga/giga_train_bin/*")
+#eval_data_path = os.path.join(root_dir, "/home/corpus/giga/giga_train_bin/*")
+decode_data_path = os.path.join(root_dir, "/home/NHG/code/data/test/ductest")
+train_ds_data_path = os.path.join(root_dir, "/home/NHG/code/data/ds/ductest")
+vocab_path = os.path.join(root_dir, "/home/NHG/code/data/vocabulary/vocab")
+log_root = os.path.join(root_dir, "/home/NHG/code/codespace/log_root")
+concept_vocab_path = os.path.join(root_dir, "/home/NHG/code/data/vocabulary/concept_vocab")
 
 traintimes = 450000
 hidden_dim= 256
