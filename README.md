@@ -9,7 +9,11 @@ pytorch 0.4 with python 2.7
 * python train.py None or python train.py (the model name)
 ###### before train
 * 1 Our conceptual vocabulary in code/data/vocabulary/concept_vocab,the number of conceptual words needs to be set before train.
-* 2 you need to change some path and parameters in code/codespace/data_util/config.py before train.
+* 2 You need to change some path and parameters in code/codespace/data_util/config.py before train.
+##### RL train
+* Before RL train the model, you need use Cross-Entropy Object Function train the model, then set the Cross-Entropy train times and RL_train = True in code/codespace/data_util/config.py, finally the model will automatically use reinforcement learning to train the model when the train times exceed the Cross-Entropy train times.
+##### DS train
+* Before RL train the model, you need use Cross-Entropy Object Function train the model and Retain model parameters,then set DStrain = True and RL_tran = False in code/codespace/data_util/config.py, finally use the command “python train.py (the model name)” train the model.
 ##### How to test?
 * python decode.py (the model name)
 #
