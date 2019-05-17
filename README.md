@@ -22,5 +22,5 @@ pytorch 0.4 with python 2.7
 * python decode.py (position of model parameters)
 #
 ##### other
-* Our concepts come from https://concept.research.microsoft.com/Home/API
+* Our concept word come from https://concept.research.microsoft.com/Home/API
 * Part of our code references https://github.com/atulkum/pointer_summarizer
